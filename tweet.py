@@ -1,9 +1,9 @@
 import tweepy
 
-ckey = "KQRcC5Gb6IV1dxmQrzOtl7exM"
-csec = "Gy8oFSP1tBvsxO9Cee9xcM27N7TGNaw1IGepgSjt0xRxqEquLC"
-at = "601808805-37UZFta5MgGglZMKhnrlwn214TUQwZKwCyeeuC05"
-ats = "q99TfO6xVSUL4yU9UKojVDHyIoNjnyr4esX3IxGddB2Qx"
+ckey = "Customer Key"
+csec = "Customer Secret key"
+at = "Access Token"
+ats = "Access Token Secret key"
 
 auth = tweepy.OAuthHandler(ckey, csec)
 auth.set_access_token(at, ats)
